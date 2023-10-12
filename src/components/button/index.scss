@@ -1,22 +1,36 @@
 .hancens-button {
   display: flex;
   justify-content: center;
-  border-radius:12px;
-  background: linear-gradient(104deg, #fe8e17 18%, #ff6203 51%);
+  border-radius: 12px;
+
   font-size: 14px;
   font-weight: bold;
   padding: 12px;
+  color: #201A19;
 
 
   &--size-md {
-    padding: 5.5px 16px;
-    line-height: 20px;
+
 
   }
 
   &--size-lg {
     line-height: 24px;
-    color: white;
     width: 235px;
+  }
+
+  &--type-primary {
+    background: #F8EBE9;
+
+  }
+
+  &--type-normal {
+    background: #FFDAD7;
+
+  }
+
+  &--type-danger {
+    background: #BC1321;
+
   }
 }

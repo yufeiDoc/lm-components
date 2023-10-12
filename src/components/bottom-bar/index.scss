@@ -1,0 +1,24 @@
+.hancens-bottom-bar{
+  display: flex;
+  justify-content: space-around;
+background: #FFFBFF;
+  padding: 16px;
+  width: 375px;
+  border: 1px solid red;;
+}
+
+input{
+  width: 191px;
+  background: #FFF8F7;
+  border-radius: 8px;
+  border: none;
+  font-size: 12px;
+  color:#000000;
+  font-weight: 400;
+  padding: 12px;
+}
+
+.icons{
+  display: flex;
+ align-items: center;
+}
